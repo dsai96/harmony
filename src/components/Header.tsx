@@ -1,9 +1,7 @@
-type WelcomeProps = {
-    name: string;
+export default function Header() {
+    return (
+        <div className="header">
+            <h1>Consensys</h1>
+        </div>
+    );
 }
-
-function Welcome(props: WelcomeProps) {
-    return <h1>Hello, {props.name}</h1>;
- }
-
-export default Welcome;
